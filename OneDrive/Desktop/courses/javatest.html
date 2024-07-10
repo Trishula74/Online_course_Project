@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz Test</title>
+    <link rel="stylesheet" type="text/css" href="javatest.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz Test</h1>
+        <form id="quiz-form">
+            <div class="question">
+                <p><b>1.Which of the following option leads to the portability and security of Java?</b></p>
+                <input type="radio" id="q1a" name="q1" value="Bytecode is executed by JVM">
+                <label for="q1a">Bytecode is executed by JVM</label><br>
+                <input type="radio" id="q1b" name="q1" value="The applet makes the Java code secure and portable">
+                <label for="q1b">The applet makes the Java code secure and portable</label><br>
+                <input type="radio" id="q1c" name="q1" value="Use of exception handling">
+                <label for="q1c">Use of exception handling</label><br>
+                <input type="radio" id="q1d" name="q1" value="Dynamic binding between objects">
+                <label for="q1d">Dynamic binding between objects</label>
+            </div>
+            <div class="question">
+                <p><b>2.Which of the following is not a Java features?</b></p>
+                <input type="radio" id="q2a" name="q2" value="Dynamic">
+                <label for="q2a">Dynamic</label><br>
+                <input type="radio" id="q2b" name="q2" value="Architecture Neutral">
+                <label for="q2b">Architecture Neutral</label><br>
+                <input type="radio" id="q2c" name="q2" value="Use of pointers">
+                <label for="q2c">Use of pointers</label><br>
+                <input type="radio" id="q2d" name="q2" value="Use of pointers">
+                <label for="q2d">Use of pointers</label>
+            </div>
+            <div class="question">
+                <p><b>3.The \u0021 article referred to as a</b></p>
+                <input type="radio" id="q3a" name="q3" value="Unicode escape sequence">
+                <label for="q3a">Unicode escape sequence</label><br>
+                <input type="radio" id="q3b" name="q3" value="Octal escape">
+                <label for="q3b">Octal escape</label><br>
+                <input type="radio" id="q3c" name="q3" value="Hexadecimal">
+                <label for="q3c">Hexadecimal</label><br>
+                <input type="radio" id="q3d" name="q3" value="Line feed">
+                <label for="q3d">Line feed</label>
+            </div>
+            <button type="reset">Reset</button><br>
+            <button type="button" onclick="checkAnswers()">Submit</button>      
+        </form>
+
+        <div id="result"></div>
+       
+    </div>
+    <script src="javatest.js"></script>
+</body>
+</html>

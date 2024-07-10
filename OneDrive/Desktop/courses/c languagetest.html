@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz Test</title>
+    <link rel="stylesheet" type="text/css" href="c languagetest.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz Test</h1>
+        <form id="quiz-form">
+            <div class="question">
+                <p><b>1.Which data structure is used to handle recursion in C?</b></p>
+                <input type="radio" id="q1a" name="q1" value="Stack">
+                <label for="q1a">Stack</label><br>
+                <input type="radio" id="q1b" name="q1" value="queue">
+                <label for="q1b">queue</label><br>
+                <input type="radio" id="q1c" name="q1" value="deque">
+                <label for="q1c">deque</label><br>
+                <input type="radio" id="q1d" name="q1" value="trees">
+                <label for="q1d">trees</label>
+            </div>
+            <div class="question">
+                <p><b>2.Which of the following are not standard header files in C?</b></p>
+                <input type="radio" id="q2a" name="q2" value="stdio.h">
+                <label for="q2a">stdio.h</label><br>
+                <input type="radio" id="q2b" name="q2" value="stdlib.h">
+                <label for="q2b">stdlib.h</label><br>
+                <input type="radio" id="q2c" name="q2" value="conio.h">
+                <label for="q2c">conio.h</label><br>
+                <input type="radio" id="q2d" name="q2" value="all of the above">
+                <label for="q2d">all of the above</label>
+            </div>
+            <div class="question">
+                <p><b>3.  
+                    Which of the following are correct file opening modes in C?</b></p>
+                <input type="radio" id="q3a" name="q3" value="r">
+                <label for="q3a">r</label><br>
+                <input type="radio" id="q3b" name="q3" value="rb">
+                <label for="q3b">rb</label><br>
+                <input type="radio" id="q3c" name="q3" value="w">
+                <label for="q3c">w</label><br>
+                <input type="radio" id="q3d" name="q3" value="all of the above">
+                <label for="q3d">all of the abov</label>
+            </div>
+            <button type="reset">Reset</button><br>
+            <button type="button" onclick="checkAnswers()">Submit</button>      
+        </form>
+
+        <div id="result"></div>
+       
+    </div>
+    <script src="c languagetest.js"></script>
+</body>
+</html>

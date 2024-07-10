@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz Test</title>
+    <link rel="stylesheet" type="text/css" href="reactjstest.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz Test</h1>
+        <form id="quiz-form">
+            <div class="question">
+                <p><b>1.Which of the following is the correct name of React.js?</b></p>
+                <input type="radio" id="q1a" name="q1" value="React">
+                <label for="q1a">React</label><br>
+                <input type="radio" id="q1b" name="q1" value="React.js">
+                <label for="q1b">React.js</label><br>
+                <input type="radio" id="q1c" name="q1" value="ReactJS">
+                <label for="q1c">ReactJS</label><br>
+                <input type="radio" id="q1d" name="q1" value="None of these">
+                <label for="q1d">None of these</label>
+            </div>
+            <div class="question">
+                <p><b>2.Which of the following command is used to install create-react-app??</b></p>
+                <input type="radio" id="q2a" name="q2" value="npm install -g create-react-app">
+                <label for="q2a">npm install -g create-react-app</label><br>
+                <input type="radio" id="q2b" name="q2" value="npm install create-react-app">
+                <label for="q2b">npm install create-react-app</label><br>
+                <input type="radio" id="q2c" name="q2" value="npm install -f create-react-app">
+                <label for="q2c">npm install -f create-react-app</label><br>
+                <input type="radio" id="q2d" name="q2" value="install -g create-react-app">
+                <label for="q2d">install -g create-react-app</label>
+            </div>
+            <div class="question">
+                <p><b>3.  What of the following is used in React.js to increase performance?</b></p>
+                <input type="radio" id="q3a" name="q3" value="Original DOM">
+                <label for="q3a">Original DOM</label><br>
+                <input type="radio" id="q3b" name="q3" value="Virtual DOM">
+                <label for="q3b">Virtual DOM</label><br>
+                <input type="radio" id="q3c" name="q3" value="Both A and B">
+                <label for="q3c">Both A and B.</label><br>
+                <input type="radio" id="q3d" name="q3" value="None of the above">
+                <label for="q3d">None of the above.</label>
+            </div>
+            <button type="reset">Reset</button><br>
+            <button type="button" onclick="checkAnswers()">Submit</button>      
+        </form>
+
+        <div id="result"></div>
+       
+    </div>
+    <script src="reactjstest.js"></script>
+</body>
+</html>

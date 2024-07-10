@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz Test</title>
+    <link rel="stylesheet" type="text/css" href="sqltest.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz Test</h1>
+        <form id="quiz-form">
+            <div class="question">
+                <p><b>1.What is the full form of SQL?</b></p>
+                <input type="radio" id="q1a" name="q1" value="Structured Query List">
+                <label for="q1a">Structured Query List</label><br>
+                <input type="radio" id="q1b" name="q1" value="Structure Query Language">
+                <label for="q1b">Structure Query Language</label><br>
+                <input type="radio" id="q1c" name="q1" value="Sample Query Language">
+                <label for="q1c">Sample Query Language</label><br>
+                <input type="radio" id="q1d" name="q1" value="None of these">
+                <label for="q1d">None of these</label>
+            </div>
+            <div class="question">
+                <p><b>2.Which of the following are TCL commands?</b></p>
+                <input type="radio" id="q2a" name="q2" value="COMMIT and ROLLBACK">
+                <label for="q2a">COMMIT and ROLLBACK</label><br>
+                <input type="radio" id="q2b" name="q2" value="UPDATE and TRUNCATE">
+                <label for="q2b">UPDATE and TRUNCATE</label><br>
+                <input type="radio" id="q2c" name="q2" value="SELECT and INSERT">
+                <label for="q2c">SELECT and INSERT</label><br>
+                <input type="radio" id="q2d" name="q2" value="GRANT and REVOKE">
+                <label for="q2d">GRANT and REVOKE</label>
+            </div>
+            <div class="question">
+                <p><b>3.  Which of the following is not a valid SQL type?</b></p>
+                <input type="radio" id="q3a" name="q3" value="FLOAT">
+                <label for="q3a">FLOAT</label><br>
+                <input type="radio" id="q3b" name="q3" value="NUMERIC">
+                <label for="q3b">NUMERIC</label><br>
+                <input type="radio" id="q3c" name="q3" value="DECIMAL">
+                <label for="q3c">DECIMAL</label><br>
+                <input type="radio" id="q3d" name="q3" value="CHARACTER">
+                <label for="q3d">CHARACTERL</label>
+            </div>
+            <button type="reset">Reset</button><br>
+            <button type="button" onclick="checkAnswers()">Submit</button>      
+        </form>
+
+        <div id="result"></div>
+       
+    </div>
+    <script src="sqltest.js"></script>
+</body>
+</html>

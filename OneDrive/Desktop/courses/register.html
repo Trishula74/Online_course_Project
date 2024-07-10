@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Registration</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="i1">
+                <img src="https://api.logo.com/api/v2/images?logo=logo_db1ec2dc-606d-4cd3-9c1f-329b1bc81994&u=1718632695&width=500&height=400&fit=contain&margins=100&format=webp&quality=60" height="80px" width="100px"/>
+            </div>
+            
+            <div class="l1">
+                <ul>
+                    <li><a href="feedback.html">Feed back</a></li>
+                    <li><a href="ratings.html">Ratings</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="homepage.html">Homepage</a></li>
+                    <li><a href="payments.html">Paymentpage</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Course Registration</h2>
+        <form id="registrationForm" onsubmit="return validateForm()">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="course">Select Course</label>
+            <select id="course" name="course">
+                <option value="course1">Course 1</option>
+                <option value="course2">Course 2</option>
+                <option value="course3">Course 3</option>
+            </select>
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+
+    <script src="register.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="loginpage.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="https://api.logo.com/api/v2/images?logo=logo_db1ec2dc-606d-4cd3-9c1f-329b1bc81994&u=1718632695&width=500&height=400&fit=contain&margins=100&format=webp&quality=60" height="80px" width="100px"/>
+                
+            </div>
+            <div class="l1">
+                <ul>
+                    <li><a href="homepage.html">Homepage</a></li>
+                    <li><a href="course.html">Courses</a></li>
+                    <li><a href="register.html">Register page</a></li>
+                    <li><a href="payments.html">Payments</a></li>
+                    
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="m1">
+            <div class="m2">
+                <center><h2 class="ln">Login</h2></center>
+            <form class="formgroup">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username"pattern="[A-Za-z]+"required>
+                <br>
+                <label for="password">Password</label>
+                <input type="text" id="password" name="password" pattern="\d{8}"required>
+                <button type="submit">Login</button>
+                <p id="errorMessage" class="error-message"></p>
+            </form>
+            </div>
+        </div>
+    </main>
+
+    <!-- <main>
+        <div class="m1">
+            <center>
+                <h2>Login</h2>
+                        <form id="loginForm">
+                        <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" name="username" required>
+                        </div>
+                        <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="text" id="password" name="password" required>
+                   
+                        </div>
+                    
+                        <button type="submit">Login</button>
+                    </form>
+                    <p id="errorMessage" class="error-message"></p>
+                </center>
+        </div>
+    </main> -->
+
+    <!-- <div class="n1">
+        <div class="login-container">
+            <nav>
+            <ul>
+                
+            </ul>
+            </nav>
+        </div>
+   
+        <div>
+            
+        </div>
+    </div> -->
+    <script src="loginpage.js"></script>
+</body>
+</html>
